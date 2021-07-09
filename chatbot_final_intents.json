@@ -1,0 +1,219 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, thanks for asking",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered"
+      ],
+      "responses": [
+        "I can guide you through times when you have the following complications :          Headache , Cramps , Blocked nose , Heartburn and Indigestion , Constipation ,Backache , Nausea ,Frequent urination , Joint pain ,Swelling , Insomnia and so on..."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "headache",
+      "patterns": [
+        "I am having a headache",
+        "i am feeling like my head is heavy"
+      ],
+      "responses": [
+        "Try getting some sleep",
+        "keep yourself hydrated drink some hot water",
+        "Headaches are common in pregnancy, but are usually harmless. Headaches may stop if the woman rests and relaxes more, drinks more juice or water, or gently massages her temples. It is OK for a pregnant woman to take two paracetamol tablets with a glass of water once in a while"
+      ]
+    },
+    {
+      "tag": "cramps",
+      "patterns": [
+        "I feel like my leg is hurting",
+        "i feel like somebody is pulling my leg",
+        "my legs hurt i cannot walk",
+        "i am having a muscle pull in my leg",
+        "my calf hurts",
+        " i am having cramps"
+      ],
+      "responses": [
+        "To stop the cramp, flex the foot (point it upward) and then gently stroke the leg to help it relax (do not stroke hard).",
+        "If you get a cramp, keep your leg straight on the mattress and pull your toes back towards your knee. When the pain eases, you can massage the area or place a hot water bottle or heat pack on the area."
+      ]
+    },
+    {
+      "tag": "Blocked nose",
+      "patterns": [
+        "i cannot breathe",
+        "i am having a blocked nose",
+        "i am feeling uncomfortable to breathe",
+        "i am experiencing shortness of breathes"
+      ],
+      "responses": [
+        "If your nose does become blocked, try not to blow it too hard, as this can cause nosebleeds. Many over the counter cold medicines are not suitable to use during pregnancy but some nasal spray products may be useful.Saline drops or sprays which do not have any other chemicals in them are usually fine. Steam inhalations may help."
+      ]
+    },
+    {
+      "tag": "heartburn and indigestion",
+      "patterns": [
+        "i am having stomach ache",
+        "my stomach feels heavy",
+        "i am having heartburn and indigestion"
+      ],
+      "responses": [
+        "You can relieve heartburn with an antacid solution or tablets. Ask your pharmacist, doctor or midwife to recommend a product that is suitable to use in pregnancy.        You can also try to avoid heartburn by eating small meals, and avoiding fatty and spicy foods.        Heartburn can be worse if you lie down after a big meal.        Raising the head of your bed by about 15 cm may help with heartburn at night.        Sometimes, drinking a glass of milk or eating some yoghurt may help prevent and relieve heartburn."
+      ]
+    },
+    {
+      "tag": "constipation",
+      "patterns": [
+        "i am having difficulty in passing stools",
+        "my intestines hurt",
+        "my stomach feels bloated",
+        "i am struggling to pass stools"
+      ],
+      "responses": [
+        "Increase the fibre in your diet by eating plenty of wholegrain bread and cereals, fresh and dried fruit, vegetables, nuts and cooked dried beans and lentils - you should be aiming to eat 30 - 40 grams of fibre every day.Drink at least 6 - 8 glasses of water each day.Get plenty of gentle, regular exercise - walking is a great choice."
+      ]
+    },
+    {
+      "tag": "backache",
+      "patterns": [
+        "my back hurts",
+        "i am having a back pain",
+        "my spine hurts"
+      ],
+      "respones": [
+        "Maintaining a good posture, practising regular antenatal exercises and wearing comfortable flat-heeled shoes can all help to prevent problems and relieve symptoms.        If your backache continues or is worrying you, please speak to your doctor or midwife, or make an appointment to see a physiotherapist.",
+        "A tight girdle, or a belt worn about the hips, together with frequent bed rest, may relieve severe back pain."
+      ]
+    },
+    {
+      "tag": "nausea",
+      "patterns": [
+        "i am feeling nauseated",
+        " i am having an urge to vomit",
+        "i am feeling vomitting sensation",
+        "i feel like throwing up"
+      ],
+      "responses": [
+        "Before bed or during the night, eat a food that contains protein, such as beans, nuts or cheese.        Eat a few bananas, dry bread, dry kita, or other grain food upon waking up in the morning.        Eat many small meals instead of two or three larger ones, and take small sips of liquid often.        Drink a cup of mint, cinnamon or ginger tea two or three times a day, before meals. Put a teaspoon of mint leaves, or a stick of cinnamon, in a cup of boiling water and let the tea sit for a few minutes before drinking it. To make ginger tea, boil crushed or sliced ginger root in water for at least 15 minutes."
+      ]
+    },
+    {
+      "tag": "frequent urination",
+      "patterns": [
+        "i am urinating frequently",
+        " i am urinating often",
+        " i have the urge to urinate often",
+        " i am urinating too much"
+      ],
+      "responses": [
+        " urinary frequency is not usually a problem until the last weeks of your pregnancy, when the baby’s head sinks lower into the pelvis ready for delivery.Urinary frequency is normal during pregnancy, and you can't really do anything to relieve it.        It's really important not to limit the amount of water and other fluids you drink - you and your baby still need plenty of water."
+      ]
+    },
+    {
+      "tag": "joint pain",
+      "patterns": [
+        "i am having pain in my joints",
+        "my joints hurt",
+        "my joints hurt when i move them"
+      ],
+      "responses": [
+        "Regular movement helps to maintain flexibility in your joints. Weight-bearing exercises such as running and walking can be damaging. Cold treatments are best for relieving joint pain, swelling, and inflammation. Wrap a gel ice pack or a bag of frozen vegetables in a towel and apply it to painful joints for quick relief.Meditation and relaxation techniques may be able to help you reduce pain from arthritis by reducing stress and enabling you to cope with it better"
+      ]
+    },
+    {
+      "tag": "swelling",
+      "patterns": [
+        "my leg is swollen",
+        "my ankles are swollen",
+        "my foot is swollen"
+      ],
+      "responses": [
+        "Avoid standing for long periods        Avoid crossing your legs        Rest with your feet and legs higher than the rest of your body        Do gentle, regular exercise such as walking or swimming"
+      ]
+    },
+    {
+      "tag": "insomnia",
+      "patterns": [
+        "I am having trouble sleeping",
+        "I cannot sleep",
+        "I am getting nightmares"
+      ],
+      "responses": [
+        "She lies on her side with something comfortable between her knees and at her lower back. She can use a pillow, a rolled-up blanket, banana leaves, or some other padding.        Someone gives her a massage.        She drinks herbal teas that help her sleep"
+      ]
+    }
+  ]
+}
