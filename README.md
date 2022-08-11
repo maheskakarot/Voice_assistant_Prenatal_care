@@ -1,7 +1,6 @@
 # Voice_assistant_Prenatal_care
 
-This project is developed to help pregnant women living in rural areas.
-In some rural places hospitals are located far away from their home and chances of spreading fake information is really high. To help illitarate women by providing some basic information related to pregnancy we created this virtual assistant which can be accessed through voice for easier access. by ruuning the file gui_with_voice.ipynb by providing the location of the trained model and pickle files we can directly run the assistant and by using the button speak we can communicate with the assistant.
+In rural areas hospitals are located far away from home and people are often needed to perform first aid measures in times of emergency but people aren't aware of them. We may find some misleading information online and taking action based on random news on the internet is never recommended hence to solve this problem I developed a personal assistant to provide first aid measures to be taken during an emergency. All the First aid measures that are provided by the assistant are verifed and recommended by doctors.
 
 LIMITATIONS:
-    Response time of assistant totally depends on the available network bandwidth.  
+    Response time of assistant totally depends on current network bandwidth.  
